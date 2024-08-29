@@ -25,7 +25,7 @@ const Hero = () => {
 
         {/* Right Side Image */}
         <div className="w-full md:w-1/2 lg:w-3/5 flex justify-center md:justify-end mx-4 md:mx-8">
-          <img src={Bisimg4} alt="Biscuits" className="w-4/5 md:w-full h-auto object-contain rounded-lg shadow-xl" />
+          <img src={Bisimg4} alt="Biscuits" className="w-3/5 md:w-4/5 h-auto object-contain rounded-lg shadow-xl" /> {/* Adjusted width */}
         </div>
       </div>
     </div>
