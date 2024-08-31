@@ -5,13 +5,14 @@ import Hero from './Components/Hero';
 import Banner from './Components/Banner';
 import Cards from './Components/Cards';
 import Rev from './Components/Rev';
+import Footer from './Components/Footer';
 function App() {
   return (
     <>
     <Heaader/>
     <Hero/>
     <Cards/>
-    <Rev/>
+    <Footer/>
     </>
   );
 }
